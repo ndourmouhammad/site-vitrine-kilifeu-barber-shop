@@ -29,3 +29,6 @@ menu a {
     color: black;
     padding:0 20px;
 }
+.block1 {
+    display: flex;
+}

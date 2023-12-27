@@ -15,10 +15,17 @@ body {
 sidebar {
     display: flex;
     background: rgb(246,187,129);
+    justify-content: space-between;
+    padding: 30px 200px;
+    font-size: 15px;
 }
 
-menu {
-    text-align: right;
+menu .bordure{
+    border: black solid 1px;
+    border-radius: 30px;
+}
+menu a {
     text-decoration: none;
-    text-align: justify;
+    color: black;
+    padding:0 20px;
 }

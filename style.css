@@ -29,7 +29,7 @@ menu a {
     color: black;
     padding:0 20px;
 }
-.block1 {
+.section1 {
     display: flex;
-    
+    margin-top: 10px;
 }

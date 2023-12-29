@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap");
 
 *, ::before, ::after {
     box-sizing: border-box;
 }
 body {
     background-color: #F0F0F0;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: black;
     margin: 0;
@@ -32,4 +34,275 @@ menu a {
 .section1 {
     display: flex;
     margin-top: 10px;
+    background: rgb(246,187,129);
+}
+.image-header {
+    width: 70%;
+}
+.image-header img {
+    width: 1300px;
+    height: 500px;
+}
+.block1 {
+    padding: 90px;
+    
+}
+.block1 h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+.block1 p {
+ font-family: "Poppins", sans-serif;
+ font-size: 20px;   
+}
+.whatsapp {
+    border: black solid 1px;
+    background: black;
+    color: #F0F0F0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.whatsapp a {
+    text-decoration: none;
+    color: #F0F0F0;
+}
+
+.qualites {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: -200px;
+}
+.qualites h1 {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  margin: 50px 0;
+}
+.grid {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template:
+    "hygiene hygiene" min-content
+    "barberie soins" min-content
+    "detente univers" min-content;
+  color: #7b7c7c;
+}
+.hygiene {
+  grid-area: hygiene;
+  border: #a6753f solid 1px;
+  padding: 1px;
+  display: flex;
+}
+.barberie {
+  grid-area: barberie;
+  border-right: #a6753f solid 1px;
+  border-left: #a6753f solid 1px;
+  padding: 15px;
+  display: flex;
+}
+.soins {
+  grid-area: soins;
+  border-right: #a6753f solid 1px;
+  padding: 15px;
+  display: flex;
+}
+.detente {
+  grid-area: detente;
+  border: #a6753f solid 1px;
+  padding: 15px;
+  display: flex;
+}
+.univers {
+  grid-area: univers;
+  border-top: #a6753f solid 1px;
+  border-right: #a6753f solid 1px;
+  border-bottom: #a6753f solid 1px;
+  padding: 15px;
+  display: flex;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 100px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.text h2 {
+  color: #a6753f;
+  font-family: "Aleo", serif;
+}
+.img img {
+  padding: 10px 0 0 10px;
+}
+.image-colle {
+  float: right;
+  clear: both;
+  margin-top: -60px;
+}
+.grid-tem {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 65px;
+}
+.temoignages {
+  display: flex;
+  border: #a6753f solid 1px;
+  padding: 10px;
+}
+.txt h1 {
+  color: #a6753f;
+}
+.txt p {
+  padding: 10px;
+  font-family: "Aleo", serif;
+  font-style: italic;
+}
+.maitre-barbiere {
+  display: flex;
+  background: black;
+  width: 60%;
+  padding: 80px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.description {
+  color: #a6753f;
+  padding: 25px;
+}
+.description h1 {
+  font-family: "Aleo", serif;
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.description p {
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+  font-size: 20px;
+  margin-top: 100px;
+}
+.historique {
+    width: 65%;
+    margin: 45px;
+    margin: 0 auto;
+}
+.historique h1 {
+   border-bottom: #a6753f solid 1px;
+   padding-bottom: 25px;
+   margin: 50px 0 20px 0;
+   font-size: 40px;
+}
+.flex1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+.flex1 img {
+    width: 30%;
+    height: auto;
+    padding-right: 20px;
+}
+.flex1 p {
+    font-size: 30px;
+    padding-left: 100px;
+    font-family: "Poppins", sans-serif;
+    color: #7b7c7c;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.histoire .italic {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 17px;
+}
+.histoire .normal {
+    font-size: 30px;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    color: #7b7c7c;
+}
+
+.localisation {
+    background: #F6BB81;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+}
+.contact {
+    padding: 0 50px;
+}
+.st {
+    font-weight: bold;
+    font-size: 25px;
+}
+.cord {
+    display: flex;
+}
+.cord p {
+    margin-right: 25px;
+    border: black solid 1px;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.image img {
+    margin: -10px 5px 0 0;
+}
+.form label{
+    font-weight: bold;
+    font-size: 25px;
+}
+.form input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.email {
+    margin: 10px 0;
+}
+.flex-contact {
+    display: flex;
+    justify-content: space-between;
+}
+.submit {
+    background: black;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+}
+.footer {
+    background: black;
+    width: 52%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 200px 5px 200px;
+}
+.logo img {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.margin {
+    margin: 60px 0;
+}
+
+.social-media img {
+    padding-left: 50px;
+    margin: 50px 0 50px 0;
 }
